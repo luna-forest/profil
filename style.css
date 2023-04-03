@@ -1,0 +1,82 @@
+body {
+	background-color: #A9DFBF;
+}
+
+
+
+h1 {
+	color:#52BE80 ;
+	font-size:700%;
+	text-shadow: 10px 12px #A9DFBF;
+	text-align: center;
+	font-family: "SimpleHandmade";
+	letter-spacing: 10px ;
+}
+p {
+	color:#5DADE2;
+	text-align: center;
+	font-family: "SERIF";
+	line-height: 2;
+	padding: ;
+}
+
+h3 {
+	text-decoration: underline;
+	text-align: center;
+	font-family: "SERIF";
+	font-size:200%;
+}
+
+@font-face {
+	font-family: "SimpleHandmade";
+	src: url("SimpleHandmade.otf");
+}
+@font-face {
+	font-family: "SERIF";
+	src: url("BUTTERSHINE SERIF.otf");
+}
+
+a {
+	color: #5DADE2;
+}
+a:hover {
+	color: #A9DFBF;
+}
+div {
+	background-color: #D0ECE7 ;
+	padding: 10px;
+	border: 2px solid #A9DFBF;
+	margin: 50px;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.leader { 
+	border-radius: 10%;
+ }
+#logo {
+	font-size: 500%;
+	letter-spacing: 30px;
+	margin-left: 30px;
+}
+ul {
+	margin-left:45%;
+	margin-right: 45%;
+}
+#none {
+	margin: 0px;
+}
